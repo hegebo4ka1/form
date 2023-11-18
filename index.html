@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ДЗ Формы</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="ДЗ Формы">
+    <meta name="description" content="ДЗ Формы">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <form class="form-user">
+      <div class="user-info">
+        <div class="user-wrap">
+          <label for="">Номер телефона:</label>
+          <input type="text" placeholder="+7 777 777 11 44">
+          <small>Только мобильные номера</small>
+        </div>
+        <div class="user-wrap">
+          <label for="">ИИН:</label>
+          <input type="text" placeholder="000111222333">
+        </div>
+        <div class="user-wrap">
+          <label for="">Дата рождения:</label>
+          <input type="text">
+        </div>
+      </div>
+
+      <div class="user-name">
+        <div class="user-wrap">
+          <label for="">Имя:</label>
+          <input type="text" placeholder="Иван">
+        </div>
+        <div class="user-wrap">
+          <label for="">Фамилия:</label>
+          <input type="text" placeholder="Иванов">
+         </div>
+        <div class="user-wrap">
+          <label for="">Отчество:</label>
+          <input type="text" placeholder="Иванович">
+        </div>
+      </div>
+
+      <div class="user-gender">
+        <div class="user-wrap">
+          <label for="">Пол:</label>
+          <select name="" id="">
+            <option value="" disabled selected>Выберите</option>
+            <option>М</option>
+            <option>Ж</option>
+          </select>
+        </div>
+        <div class="user-wrap">
+          <label for="">Статус:</label>
+          <select name="" id="">
+            <option value="" disabled selected>Выберите</option>
+            <option>замужем/женат</option>
+            <option>не замужем/не женат</option>
+            <option>разведена/разведён</option>
+            <option>вдова/вдовец</option>
+          </select>
+        </div>
+        <div class="user-wrap">
+          <label for="">e-mail:</label>
+          <input type="email">
+        </div>
+      </div>
+      <div class="user-position">
+        <div class="user-wrap">
+          <label for="">Должность:</label>
+          <input type="text">
+        </div>
+      </div>
+      <input type="submit" value="Сохранить">
+  </form>
+</body>
+</html>
